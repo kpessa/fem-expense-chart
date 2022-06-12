@@ -5,7 +5,7 @@
 Frontend Mentor challenge to create an expense chart component using whatever technologies you liked.
 
 ## Desktop Screenshot
-![](images/desktop-screenshot.png)
+![](images/desktop-screenshot2.png)
 
 ## Mobile Screenshot
 ![](images/mobile-screenshot.png)
