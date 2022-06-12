@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<div class="summary-section rounded-corners">
+				<div class="image">
+					<img src="images/logo.svg" alt="" loading="lazy" />
+				</div>
+				<p>My balance</p>
+				<h2>$921.48</h2>
+			</div>
+			<div class="detail-section rounded-corners">
+				<h2>Spending - Last 7 days</h2>
+				<canvas id="myChart" width="400"></canvas>
+				<div class="divider"></div>
+				<div class="bottom-summary">
+					<div class="this-month">
+						<div class="description">Total this month</div>
+						<h1>$478.33</h1>
+					</div>
+					<div class="last-month">
+						<p>+0.4%</p>
+						<div class="description">from last month</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+		<script src="./chart.js"></script>
+	</body>
+</html>
